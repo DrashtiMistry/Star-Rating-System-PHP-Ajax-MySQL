@@ -2,7 +2,7 @@
 class Rating{
 	private $host  = '127.0.0.1';
     private $user  = 'root';
-    private $password   = "1111";
+    private $password   = "";
     private $database  = "rating";
 	private $productUsersTable = 'product_users';
 	private $productTable = 'product';

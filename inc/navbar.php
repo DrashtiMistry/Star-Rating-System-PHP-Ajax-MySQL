@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#">Ecommerce</a>
+  <a class="navbar-brand text-center cinescore" href="#">CineScore</a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -19,27 +19,30 @@
 
 
 
-      <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item ">
+        <a class="nav-link text-light" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Product</a>
+        <a class="nav-link text-light" href="index.php">Movies</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+        <a class="nav-link text-light" href="index.php">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="index.php">FAQs</a>
       </li>
     </ul>
 
 
 
-    <form class="form-inline my-2 my-lg-0">
+    <!-- <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    </form> -->
 
     <div id="loggedPanel" class="<?php echo $show; ?>">
-      <span id="loggedUser" class="logged-user"><?php echo $userName; ?></span>
-      <a href="action.php?action=logout">Logout</a>
+      <span id="loggedUser" class="logged-user text-light pr-3"><?php echo $userName; ?></span>
+      <a href="action.php?action=logout " class="btn btn-light">Logout</a>
     </div>
   </div>
 </nav>

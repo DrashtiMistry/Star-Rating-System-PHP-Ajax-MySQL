@@ -14,6 +14,14 @@
 .padding-bottom-7{
 	padding-bottom:7px;
 }
+.cinescore {
+  font-size: 25px;
+  padding-left: 8px;
+}
+
+/* .container h2 {
+  text-align: center;
+} */
 
 .review-block{
 	background-color:#FAFAFA;
@@ -158,9 +166,9 @@
 .hidden {
   display:none;
 }
-.logged-user {
+/* .logged-user {
   font-weight:bold;
-}
+} */
 .user-pic {
 	width: 60px;
 	height: 60px;

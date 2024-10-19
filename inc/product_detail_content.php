@@ -2,8 +2,8 @@
 
 
 
-<div class="container">
-	<h2>Product Detail Page</h2>
+<div class="container" >
+	<h2 class="text-center p-4">Rate My Flicks</h2>
 	<?php
 
 	include 'class/Rating.php';
@@ -19,6 +19,8 @@
 
 
 	?>
+	<div class="content">
+		
 	<div class="row">
 		<div class="col-sm-2" style="width:150px">
 			<img class="product_image" src="image/<?php echo $product["image"]; ?>" style="width:200px;height:200px;padding:20px  25px;">
@@ -42,10 +44,13 @@
 		<!--<div><span class="average"><?php printf('%.1f', $average); ?> <small>/ 5</small></span> <span class="rating-reviews"><a href="show_rating.php?product_id=<?php echo $product["id"]; ?>">Rating & Reviews</a></span></div> -->
    <?php
 		echo '<br>';
-		echo '<div class = "product_price">$'.$product["price"].'</div>';
+		// echo '<div class = "product_price">$'.$product["price"].'</div>';
 		 echo $product["description"]; ?>
 		</div>
 	</div>
+
+	</div>
+
 	<?php } ?>
 
 
@@ -78,7 +83,7 @@
 			</div>
 
 			<div class="col-sm-3">
-				<button type="button" id="rateProduct" class="btn btn-secondary btn-sm <?php if(empty($_SESSION['userid'])){echo $settingClass;}  ?>">Rate This Product</button>
+				<button type="button" id="rateProduct" class="btn btn-secondary btn-sm <?php if(empty($_SESSION['userid'])){echo $settingClass;}  ?>">Rate This Movie</button>
 			</div>
 		</div>
 		<div class="row">
@@ -207,7 +212,7 @@
 					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
 				</form>
 				<div class="login-help">
-					<p><b>Username</b> : joseph, mary, lisa <b>Password</b>: 123</p>
+					<p><b>Username</b> : Shreya, Jency, Drashti <b>Password</b>: 123</p>
 				</div>
       </div>
 

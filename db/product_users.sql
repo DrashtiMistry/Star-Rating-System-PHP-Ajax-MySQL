@@ -15,6 +15,6 @@ CREATE TABLE `product_users` (
 --
 
 INSERT INTO `product_users` (`id`, `username`, `password`, `avatar`) VALUES
-(1, 'joseph', '123', 'user1.jpg'),
-(2, 'mary', '123', 'user2.jpg'),
-(3, 'lisa', '123', 'user6.jpg');
+(1, 'Shreya', '123', 'user1.jpg'),
+(2, 'Jency', '123', 'user2.jpg'),
+(3, 'Drashti', '123', 'user6.jpg');
