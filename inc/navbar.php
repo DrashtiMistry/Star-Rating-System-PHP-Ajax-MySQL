@@ -41,7 +41,7 @@
     </form> -->
 
     <div id="loggedPanel" class="<?php echo $show; ?>">
-      <span id="loggedUser" class="logged-user text-light pr-3"><?php echo $userName; ?></span>
+      <span id="loggedUser" class="logged-user text-light pr-3"><?php echo "Welcome, $userName !"; ?></span>
       <a href="action.php?action=logout " class="btn btn-light">Logout</a>
     </div>
   </div>
